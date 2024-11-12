@@ -46,8 +46,7 @@ if(isset($_POST['submit'])){
       } else {
          $message = "Data not inserted";
       }
-      // header("Location: index.php ? alert=" . base64_encode($alert));
-      echo $message;
+      header("Location: index.php ? message=" . base64_encode($message));
    }
 }
 
