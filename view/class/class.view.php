@@ -25,14 +25,13 @@
                      <input type="text" class="form-control" id="class_no" name="class_no" value="<?= $class_no?? "" ?>">
                      <span class="text-danger"><?= $class_no_err?? "" ?></span>
                   </div>
-                  <div class="mb-3"></div>
+                  <div class="mb-3">
                      <label for="class_name" class="form-label">Class Name</label>
                      <input type="text" class="form-control" id="class_name" name="class_name" value="<?= $class_name?? "" ?>">
                      <span class="text-danger"><?= $class_name_err?? "" ?></span>
                   </div>
                   <button type="submit" class="btn btn-primary" name="submit">Submit</button>
                </form>
-
             </div>
          </div>
       </div>
